@@ -1,0 +1,23 @@
+.jumbotron {
+  width: 100%;
+  height: 700px;
+  padding-top: 200px;
+  background-image: url("img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* avdbdbd */
+.totop {
+  background: rgb(138, 127, 127);
+  width: 25px;
+  height: 25px;
+  position: fixed;
+  bottom: 75px;
+  right: 50px;
+  z-index: 99;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: all 0.5s;
+  background: #013843 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+}
